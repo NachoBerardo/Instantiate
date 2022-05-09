@@ -12,7 +12,6 @@ public class Instantiator : MonoBehaviour {
         for(int i=1; i<=repeticiones; i++ )
         {
             Instantiate(ObjectToClone);
-            Debug.Log("Hola");
         }
     }
 }
